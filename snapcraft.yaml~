@@ -1,0 +1,15 @@
+name: hello-world	
+version: 0.1
+vendor: none <none@none.com>
+binaries:
+  hello:
+    exec: ./bin/setup.py
+summary: A python hello implementation
+description: A python2 project using snapcraft
+icon: icon.png
+
+parts:
+  spongeshaker:
+    plugin: python2
+    source: setup.py
+ 
